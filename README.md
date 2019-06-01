@@ -3,6 +3,7 @@ Official implementation of "EntropicGANs meet VAEs: A Statistical Approach to Co
 
 ![Framework](figs/framework.png)
 
+## Training 
 To train the model, run
 ```
 python src/main.py --savename mnist --savedir results/MNIST --gan_mode swgan --usePrimalLoss
@@ -14,4 +15,23 @@ python src/main.py --savename mnist --savedir results/MNIST --loadpath results/M
 ```
 
 The likelihood scores for samples are stored as a numpy array.
+![LL_iterations](figs/LL_iterations_ICML.png)
+![LL_datasets](figs/LL_datasets_ICML.png)
+
+## Citation
+
+If you use this code for your research, please cite
+
+    @article{Balaji2018Entropic,
+    author    = {Yogesh Balaji and
+                 Hamed Hassani and
+                 Rama Chellappa and
+                 Soheil Feizi},
+    title     = {Entropic GANs meet VAEs: {A} Statistical Approach to Compute Sample
+                 Likelihoods in GANs},
+    journal   = {CoRR},
+    volume    = {abs/1810.04147},
+    year      = {2018},
+    url       = {http://arxiv.org/abs/1810.04147},
+}
 
