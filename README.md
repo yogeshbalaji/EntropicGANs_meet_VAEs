@@ -2,7 +2,7 @@
 Official implementation of "EntropicGANs meet VAEs: A Statistical Approach to Compute Sample Likelihoods in GANs"
 
 <p align="center">
-  <src="figs/framework.png">
+  <img src="figs/framework.png" width="500">
 </p>
 
 ## Training 
@@ -17,8 +17,14 @@ python src/main.py --savename mnist --savedir results/MNIST --loadpath results/M
 ```
 
 The likelihood scores for samples are stored as a numpy array.
-![LL_iterations](figs/LL_iterations_ICML.png)
-![LL_datasets](figs/LL_datasets_ICML.png)
+
+<p align="center">
+  <img src="figs/LL_iterations_ICML.png" width="500">
+</p>
+
+<p align="center">
+  <img src="figs/LL_datasets_ICML.png" width="500">
+</p>
 
 ## Citation
 
