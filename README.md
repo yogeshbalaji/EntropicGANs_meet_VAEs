@@ -1,7 +1,9 @@
 # EntropicGANs_meet_VAEs
 Official implementation of "EntropicGANs meet VAEs: A Statistical Approach to Compute Sample Likelihoods in GANs"
 
-![Framework](figs/framework.png)
+<p align="center">
+  <src="figs/framework.png">
+</p>
 
 ## Training 
 To train the model, run
